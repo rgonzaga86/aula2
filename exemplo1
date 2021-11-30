@@ -1,0 +1,82 @@
+<?php
+Farmacia
+
+$remedio1 = "dipirona";
+
+$preco1 = 5.60;  
+
+$quantidade1 = 1;
+
+$Vendatotal1 = $preco1 * $quantidade1;
+
+echo "O produto {$remedio1} tem o valor de {$preco1}, a venda total foi de {$Vendatotal1}";
+
+echo "<hr>";
+
+
+<?php
+
+Mercado
+$produto1 = "arroz";
+
+$preco1 = 33.90;
+
+$quantidade1 = 3;
+
+$Vendatoatal1 = $preco1 * $quantidade1;
+
+
+
+echo "O {$prod1} tem o valor de {$preco1}, a venda total foi de {$Vendatotal1}";
+
+
+echo "<hr>";
+
+
+
+
+sintaxe:
+
+if (condition) {
+
+    [statements true]
+
+} else {
+
+    [staments false]
+
+}
+
+*/
+
+
+
+$idade = 18;
+
+if ($idade>=18){
+
+    echo "cliente liberado para fazer a compra de bebida alcolica";
+
+} else {
+
+    echo "cliente menor de idade e não pode comprar bebida alcolica";
+
+}
+
+
+
+<?php
+ 
+$login = "123456"; 
+$senha = "654321";
+if ($login = " 123456"){ 
+if ($senha = "654321"){           
+echo " 
+     Portão liberado"; 
+  } 
+else 
+{      
+echo 
+"Login ou senha Invalidos"; 
+    
+ 
